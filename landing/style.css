@@ -115,6 +115,8 @@ li a:hover{
     }
     .nav-bg{
         opacity: 1 !important;
+        background: #621451 !important;
+        border-bottom: 2px solid white;
     }
     .cont-img{
         max-height: 120px !important;
@@ -142,6 +144,10 @@ li a:hover{
         max-height: 120px !important;
         min-height: 90px;
         object-fit: cover;
+        max-width: 100%;
+    }
+    .button-carusel-position {
+        left: 37%;
     }
     
 }
@@ -150,6 +156,10 @@ li a:hover{
         max-height: 120px !important;
         min-height: 90px;
         object-fit: cover;
+        max-width: 100%;
+    }
+    .button-carusel-position {
+        left: 37% !important;
     }
     
 }
@@ -193,9 +203,11 @@ li a:hover{
     color: white !important;
 }
 .cont-img{
-    max-height: 220px;
-    min-height: 150px;
+    /* max-height: 220px;
+    min-height: 150px; */
     object-fit: cover;
+    max-width: 100%;
+    height: 200px;
 }
 .cont-pord--img{
     height: 350px;
@@ -307,14 +319,15 @@ li a:hover{
     /*background-color: #FAFBFB !important;*/
     border: none !important;
     border-radius: 20px !important;
-    box-shadow: -1px 1px 19px -4px rgb(107 107 107 / 85%);
+    box-shadow: -1px 1px 19px -4px #6b6b6bd9;
+    max-height: 330px;
 }
 .card--sig, .card--sig1{
     background-color: #FAFBFB !important;
     border: none !important;
     border-radius: 10px !important;
     color: #653490 !important;
-    box-shadow: -1px 1px 19px -4px rgb(107 107 107 / 85%);
+    box-shadow: -1px 1px 19px -4px #6b6b6bd9;
     width: 30px;
     height: 30px;
     display: flex;
@@ -326,7 +339,7 @@ li a:hover{
     background-color: #FAFBFB !important;
     border: none !important;
     border-radius: 10px !important;
-    box-shadow: -1px 1px 19px -4px rgb(107 107 107 / 85%);
+    box-shadow: -1px 1px 19px -4px #6b6b6bd9;
     width: 90px;
     height: 90px;
     display: flex;
@@ -339,7 +352,7 @@ li a:hover{
     border: none !important;
     border-radius: 50px !important;
     color: #653490 !important;
-    box-shadow: -1px 1px 19px -4px rgb(107 107 107 / 85%);
+    box-shadow: -1px 1px 19px -4px #6b6b6bd9;
     width: 30px;
     height: 30px;
     display: flex;
@@ -394,7 +407,7 @@ li a:hover{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: none !important;
-    box-shadow: -1px 1px 19px -4px rgb(107 107 107 / 85%);
+    box-shadow: -1px 1px 19px -4px #6b6b6bd9;
 }
 footer{
     background-color: #621451;
@@ -509,7 +522,7 @@ footer{
     left: -76px;
     top: 42px;
     padding: 1.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 5px 0 #00000042;
     width: 200px;
   }
   .popover__wrapper:hover .popover__content {
